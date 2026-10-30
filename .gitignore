@@ -1,0 +1,17 @@
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Sensitive or raw data (do not publish respondent-level data)
+data/raw/
+*.csv
+!data/README.md
